@@ -5,7 +5,7 @@ const Card = ({ player, handleBuy, handleTotalCost, handleTotalCostRemaining}) =
       <div className="card bg-base-100 shadow-xl">
         <figure>
           <img
-          className="w-full h-56"
+          className="w-full h-56 object-cover"
             src={image}
             alt={`image of Bangladeshi cricketer ${name}`}
           />

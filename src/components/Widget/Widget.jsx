@@ -1,4 +1,4 @@
-const Widget = ({addPlayer}) => {
+const Widget = ({addPlayer, costRemaining}) => {
     const {name, image, role, price} = addPlayer;
     return (
         <div>
