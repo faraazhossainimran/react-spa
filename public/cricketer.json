@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "price" : 500,
+      "name": "Mushfiqur Rahim",
+      "image": "https://i.ibb.co/X4qcffd/Mushfiqur-Rahim.jpg",
+      "role": "Wicketkeeper-Batsman",
+      "description": "Mushfiqur Rahim is a veteran Bangladeshi cricketer known for his excellent wicketkeeping skills and consistent batting performances. He has been a crucial part of the Bangladesh national cricket team for many years."
+    },
+    {
+      "id": 2,
+      "price" : 1500,
+      "name": "Shakib Al Hasan",
+      "image": "https://i.ibb.co/ssFByrv/Shakib-Al-Hasan-C-of-Bangladesh-takes-questions-from-the-media-ahead.jpg",
+      "role": "All-Rounder",
+      "description": "Shakib Al Hasan is one of the world's premier all-rounders, known for his exceptional skills in both batting and bowling. He is a key player in the Bangladesh cricket team."
+    },
+    {
+      "id": 3,
+      "price" : 5200,
+      "name": "Tamim Iqbal",
+      "image": "https://i.ibb.co/k4XmyTk/AP23062396044745-1688651875.jpg",
+      "role": "Opening Batsman",
+      "description": "Tamim Iqbal is a prolific opening batsman who has consistently performed at the top of the order for Bangladesh. He is known for his aggressive batting style."
+    },
+    {
+      "id": 4,
+      "price" : 500,
+      "name": "Tamzim Hasan Sakib",
+      "image": "https://i.ibb.co/q5wPn84/prothomalo-bangla-2023-08-49417ad6-3ce7-465f-8060-5b90ef560f86-265736414-2010906232398283-7885023163.jpg",
+      "role": "Fast Bowler",
+      "description": "Tamzim Hasan Sakib is an up-and-coming fast bowler known for his pace and ability to swing the ball. He is a promising talent in the Bangladesh cricket scene."
+    },
+    {
+      "id": 5,
+      "price" : 4500,
+      "name": "Taskin Ahmed",
+      "image": "https://i.ibb.co/2KqTpXB/Untitled-design-19.png",
+      "role": "Fast Bowler",
+      "description": "Taskin Ahmed is a talented fast bowler who has represented Bangladesh in various international matches. He can consistently clock high speeds and trouble batsmen with his deliveries."
+    },
+    {
+      "id": 6,
+      "price" : 2500,
+      "name": "Shoriful Islam",
+      "image": "https://i.ibb.co/26KhPJD/RTXJI921-1200x768.jpg",
+      "role": "Left-arm Fast Bowler",
+      "description": "Shoriful Islam is a left-arm fast bowler known for his ability to generate movement off the pitch. He is considered a future prospect for Bangladesh cricket."
+    },
+    {
+      "id": 7,
+      "price" : 200,
+      "name": "Shamim Hossain",
+      "image": "https://i.ibb.co/0DLRC90/98369535.jpg",
+      "role": "All-Rounder",
+      "description": "Shamim Hossain is a promising all-rounder known for his explosive batting and useful medium-pace bowling. He has the potential to make a significant impact in Bangladesh cricket."
+    }
+  ]
+  
