@@ -1,4 +1,4 @@
-const Card = ({ player, handleBuy }) => {
+const Card = ({ player, handleBuy, handleTotalCost, handleTotalCostRemaining}) => {
   const { id,price,image, name, description, role} = player;
   return (
     <div >
@@ -20,7 +20,9 @@ const Card = ({ player, handleBuy }) => {
           </h2>
           <p>{description}</p>
           <div className="card-actions">
-          <button className="btn btn-active btn-neutral font-bold text-lg my-4 px-8 text-[white]" onClick={() => handleBuy(player)}>Buy</button>
+          <button className="btn btn-active btn-neutral font-bold text-lg my-4 px-8 text-[white]" onClick={() => {
+            handleBuy(player); handleTotalCost(price); handleTotalCostRemaining(price)
+          }}>Buy</button>
           </div>
         </div>
       </div>
