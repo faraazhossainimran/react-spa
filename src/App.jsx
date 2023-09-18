@@ -7,7 +7,11 @@ import Header from './components/Header/Header'
 import Widgets from "./components/Widgets/Widgets";
 function App() {
   const [players, setPlayers] = useState([]);
-  
+  const [addPlayers, setAddPlayers] = useState([])
+  const handleBuy = (player) => {
+    const addNewPlayers = [...addPlayers, player]
+    setAddPlayers(addNewPlayers)
+  }
   useEffect(()=> {
     fetch('cricketer.json')
     .then(res => res.json())
@@ -18,8 +22,8 @@ function App() {
     <>
       <Header></Header>
       <div className="flex">
-      <Cards players={players}></Cards>
-      <Widgets></Widgets>
+      <Cards players={players} handleBuy ={handleBuy}></Cards>
+      <Widgets addPlayers={addPlayers}></Widgets>
       </div>
     </>
   );

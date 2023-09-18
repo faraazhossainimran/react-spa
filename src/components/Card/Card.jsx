@@ -1,4 +1,4 @@
-const Card = ({ player }) => {
+const Card = ({ player, handleBuy }) => {
   const { id,price,image, name, description, role} = player;
   return (
     <div >
@@ -10,7 +10,7 @@ const Card = ({ player }) => {
             alt={`image of Bangladeshi cricketer ${name}`}
           />
           <div className="absolute top-5 right-5">
-            <button className="p-4 bg-[#FFD700] rounded-lg">Price: {price} USD</button>
+            <button className="p-4 bg-[#FFD700] rounded-lg font-bold text-lg">Price: {price} USD</button>
             </div>
         </figure>
         <div className="card-body">
@@ -20,7 +20,7 @@ const Card = ({ player }) => {
           </h2>
           <p>{description}</p>
           <div className="card-actions">
-          <button className="btn btn-active btn-neutral font-bold text-lg my-4 px-8 text-[white]">Buy</button>
+          <button className="btn btn-active btn-neutral font-bold text-lg my-4 px-8 text-[white]" onClick={() => handleBuy(player)}>Buy</button>
           </div>
         </div>
       </div>
